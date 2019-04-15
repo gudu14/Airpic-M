@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Page Title</title>
+        <style>
+            body, html {
+                width: 100%;
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .container {
+                /* Title format */
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+            
+            .centered{
+                /* Position and scale the title nicely*/
+                position: absolute;
+                top:20%;
+                left:20%;
+                transform: translate(-20%, -20%);
+            }
+            
+            .bg {
+                /* The image used */
+                /*background-image: url("https://gdurl.com/6HFt");*/
+                width: 100%;
+                
+                /* Center and scale the image nicely*/
+                background-position: center;
+                background-repeat: repeat;
+                backgroung-size: cover;
+            }
+            /* The navigation bar */
+            .topnav {
+				position : relative;
+                overflow: hidden;
+                background-color: #333;
+            }
+            /* The navigation bar links */
+            .topnav a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                transition: all 0.3s ease;
+                text-decoration: none;
+                font-size: 17px;
+            }
+            /* Moving through the navigation bar */
+            .topnav a:hover {
+                background-color: none;
+                color: #DEB887;
+            }
+            .topnav a.active {
+                background-color: none;
+            }
+            .topnav-right {
+                float: right;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <p><font size="9"></font>
+        </p>
+
+        <div class="topnav">
+            	<a class="active" href="#Home/">Home</a>
+            	<a href="#Music/">Music</a>
+            	<a href="#Events/">Events</a>
+            	<a href="#Biography/">Biography</a>
+            	<a href="#Contact/">Contact</a>
+            <div class="topnav-right">
+                <a href="https://www.facebook.com/aphelele.kosmo" target="_blank" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </div>
+
+        <div class="bg"></div>
+        <div classs="container">
+            <img src="Airpic-M.jpg" alt="#" style="width: 100%;">
+            <div class="centered">
+                <h1><font face="Arial" size="100%" color="silver">Airpic-M</font></h1>
+                </div>
+        </div>
+    </body>
+
+</html>
